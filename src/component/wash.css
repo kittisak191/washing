@@ -1,0 +1,71 @@
+.wash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  color: #1E90FF;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+
+p {
+  margin-bottom: 5px;
+}
+.machine-container {
+  display: flex;
+}
+
+.left-machine {
+  margin-right: 20px;
+}
+
+.right-machine {
+  margin-left: 20px;
+}
+
+
